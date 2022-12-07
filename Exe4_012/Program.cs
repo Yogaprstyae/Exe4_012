@@ -42,5 +42,21 @@ namespace Exe4_012
                 return top;
             }
         }
+
+        public void display()
+        {
+            if (top == -1)
+            {
+                Console.WriteLine("Stack is Empty");
+                return;
+            }
+            else
+            {
+                for (int i = 0; i <= top; i++)
+                {
+                    Console.WriteLine("Item[" + (i + 1) + "]: " + yoga[i]);
+                }
+            }
+        }
     }
 }
