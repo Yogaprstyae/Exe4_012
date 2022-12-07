@@ -58,5 +58,7 @@ namespace Exe4_012
                 }
             }
         }
+        static void Main(string[] args)
+        {}
     }
 }
