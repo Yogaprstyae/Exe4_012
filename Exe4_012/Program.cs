@@ -88,6 +88,10 @@ namespace Exe4_012
 
                     case '4':
                         return;
+
+                    default:
+                        Console.WriteLine("\nInvalid option");
+                        break;
                 }
             }
         }
