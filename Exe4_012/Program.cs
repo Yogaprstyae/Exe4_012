@@ -70,6 +70,14 @@ namespace Exe4_012
                 Console.WriteLine("3. Display");
                 Console.WriteLine("Exit");
                 Console.WriteLine("\nEnter your choise: (1-3) ");
+                string input = Console.ReadLine();
+                char ch = Convert.ToChar(input == "" ? "0" : input);
+                switch (ch)
+                {
+                    case '1':
+                        s.push();
+                        break;
+                }
             }
         }
     }
