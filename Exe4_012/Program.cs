@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Linq;
+using System.Security.AccessControl;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -19,7 +20,7 @@ namespace Exe4_012
         {
             if (top == -1)
             {
-                Console.WriteLine("Push");
+                Console.WriteLine();
                 return;
             }
             else
@@ -54,8 +55,16 @@ namespace Exe4_012
             {
                 for (int i = 0; i <= top; i++)
                 {
-                    Console.WriteLine("Item[" + (i + 1) + "]: " + yoga[i]);
+                    Console.WriteLine("[" + (i + 1) + "]: " + yoga[i]);
                 }
+            }
+
+            bool empty()
+            {
+                if (top == -1)
+                    return (true);
+                else
+                    return (false);
             }
         }
         static void Main(string[] args)
@@ -75,6 +84,8 @@ namespace Exe4_012
                 switch (ch)
                 {
                     case '1':
+                        Console.Write("Enter the character : ");
+                        string yoga = Console.ReadLine();
                         s.push();
                         break;
 
