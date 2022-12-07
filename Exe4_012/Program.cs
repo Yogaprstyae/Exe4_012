@@ -61,6 +61,11 @@ namespace Exe4_012
         static void Main(string[] args)
         {
             Stack s = new Stack();
+            while(true)
+            {
+                Console.WriteLine();
+                Console.WriteLine("\n***Stack Menu***\n");
+            }
         }
     }
 }
