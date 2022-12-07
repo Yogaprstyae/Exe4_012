@@ -85,6 +85,9 @@ namespace Exe4_012
                     case '3':
                         s.display();
                         break;
+
+                    case '4':
+                        return;
                 }
             }
         }
