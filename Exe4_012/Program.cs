@@ -20,7 +20,7 @@ namespace Exe4_012
         {
             if (top == -1)
             {
-                Console.WriteLine();
+                Console.WriteLine("Pushed");
                 return;
             }
             else
