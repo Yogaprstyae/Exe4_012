@@ -6,10 +6,14 @@ using System.Threading.Tasks;
 
 namespace Exe4_012
 {
-    internal class Program
+    class Stack
     {
-        static void Main(string[] args)
+        private string[] yoga = new string[210];
+        private int top;
+        public Stack()
         {
+            top = -1;
         }
+
     }
 }
