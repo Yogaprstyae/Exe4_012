@@ -27,5 +27,20 @@ namespace Exe4_012
                 top++;
             }
         }
+
+        public int pop()
+        {
+            if (top == -1)
+            {
+                Console.WriteLine("Stack Underflow");
+                return -1;
+            }
+            else
+            {
+                Console.WriteLine("Poped element is: " + yoga[top]);
+                top--;
+                return top;
+            }
+        }
     }
 }
