@@ -68,6 +68,8 @@ namespace Exe4_012
                 Console.WriteLine("1. Push");
                 Console.WriteLine("2. Pop");
                 Console.WriteLine("3. Display");
+                Console.WriteLine("Exit");
+                Console.WriteLine("\nEnter your choise: (1-3) ");
             }
         }
     }
